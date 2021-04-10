@@ -9,10 +9,20 @@ class GraphTest {
 
     @Test
     void testSimple() {
-        In in = new In("dupa.txt");
+        In in = new In("simple.txt");
 
         Graph G = new Graph(in);
 
-        assertEquals("dupa", G.toString());
+        assertEquals("10 vertices, 2 edges \n" +
+                "0: \n" +
+                "1: 2 \n" +
+                "2: 3 1 \n" +
+                "3: 2 \n" +
+                "4: \n" +
+                "5: \n" +
+                "6: \n" +
+                "7: \n" +
+                "8: \n" +
+                "9: \n", G.toString());
     }
 }
