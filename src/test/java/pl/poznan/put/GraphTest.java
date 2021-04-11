@@ -26,7 +26,7 @@ class GraphTest {
                 "9: \n", G.toString());
     }
     @Test
-    void testSimple() {
+    void testProba2() {
         In in = new In("proba2.txt");
 
         Graph G = new Graph(in);
@@ -49,7 +49,7 @@ class GraphTest {
                 "14: \n", G.toString());
     }
     @Test
-    void testSimple() {
+    void testProba3() {
         In in = new In("proba3.txt");
 
         Graph G = new Graph(in);
